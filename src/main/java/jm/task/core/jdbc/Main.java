@@ -15,7 +15,7 @@ public class Main {
         dao.saveUser("Petr", "Petrov", (byte) 54);
         dao.saveUser("Ivan", "Ivanov", (byte) 34);
         dao.saveUser("Vasiliy", "Vasilev", (byte) 39);
-        dao.saveUser("Alex", "P", (byte) 41);
+        dao.saveUser("Alex", "Kozlov", (byte) 41);
         dao.removeUserById(1);
 
         dao.getAllUsers().forEach(System.out::println);
